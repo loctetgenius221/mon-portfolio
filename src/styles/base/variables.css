@@ -1,0 +1,19 @@
+/* Import depuis Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+:root {
+  /* Base Radix Colors - Bleu */
+  --blue-1: #0D1520; /* Backgrounds */
+  --blue-2: #111927; /* Backgrounds */
+  --blue-3: #0D2847; /* Interactive components */
+  --blue-7: #205D9E; /* Borders and separators */
+  --blue-9: #0090FF; /* Solid background, Boutons */
+  --blue-11: #70b8ff; /* Secondary text, links */
+  --blue-12: #c2e6ff; /* High-Contrast text */
+
+  /* Neutres */
+
+  --background: var(--blue-1);
+  --text-secondary: var(--blue-11);
+  --text-primary: var(--blue-12);
+}
