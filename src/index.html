@@ -7,11 +7,39 @@
     <link rel="stylesheet" href="./styles/base/reset.css" />
     <link rel="stylesheet" href="./styles/base/variables.css" />
     <link rel="stylesheet" href="./styles/components/buttons.css" />
+    <link rel="stylesheet" href="./styles/components/header.css" />
   </head>
   <body>
     <div id="wrapper">
-      <!-- Navigation -->
-      <nav class="navbar"></nav>
+      <!-- Header - Navigation -->
+      <header class="header">
+        <div class="header__container">
+          <!-- Logo -->
+          <a href="#" class="header__logo">
+            <span class="header__logo-text">M</span>
+            <span class="header__logo-highlight">S</span>
+          </a>
+
+          <!-- Navigation Desktop -->
+          <nav class="nav">
+            <ul class="nav__list">
+              <li><a href="#intro" class="nav__link">Intro</a></li>
+              <li><a href="#projets" class="nav__link">Projets</a></li>
+              <li><a href="#skills" class="nav__link">Skills</a></li>
+              <li><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+          </nav>
+
+          <button class="btn header__download-cv">CV</button>
+
+          <!-- Bouton mobile -->
+          <button class="header__menu-toggle" aria-label="Menu mobile">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </button>
+        </div>
+      </header>
 
       <!-- Hero Section - Intro -->
       <section id="hero-section"></section>
@@ -37,5 +65,6 @@
 
     <!-- Scripts Javascript -->
     <script src="./scripts/main.js"></script>
+    <script src="./scripts/mobile-menu.js"></script>
   </body>
 </html>
