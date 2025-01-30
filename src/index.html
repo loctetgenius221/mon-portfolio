@@ -8,6 +8,16 @@
     <link rel="stylesheet" href="./styles/base/variables.css" />
     <link rel="stylesheet" href="./styles/components/buttons.css" />
     <link rel="stylesheet" href="./styles/components/header.css" />
+    <link rel="stylesheet" href="./styles/components/hero.css" />
+
+    <!-- Icons CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <div id="wrapper">
@@ -42,7 +52,64 @@
       </header>
 
       <!-- Hero Section - Intro -->
-      <section id="hero-section"></section>
+      <section class="hero">
+        <div class="hero__content">
+          <img
+            class="pattern-ratture"
+            src="./assets/images/Bold_squiggles_black.png"
+            alt="pattern rature"
+          />
+          <img
+            class="pattern-fleches"
+            src="./assets/images/Arrows_black.png"
+            alt="trois fleches"
+          />
+          <img
+            class="profil__img"
+            src="./assets/images/moussasagna.jpg"
+            alt="photo de moussa"
+          />
+          <h1 class="hero__greeting">
+            <span class="hero__hello"
+              ><i class="fa-solid fa-hand-peace"></i
+            ></span>
+            <span class="hero__name">Hello! Je m'appelle Moussa Sagna</span>
+          </h1>
+
+          <h2 class="hero__title">Développeur Web - Portfolio</h2>
+
+          <div class="hero__contact">
+            <span class="contact-item"
+              ><i class="fa-solid fa-envelope"></i>
+              sagnamoussa546@gmail.com</span
+            >
+            <span class="contact-item"
+              ><i class="fa-solid fa-phone"></i> (+221) 78 504 13 15</span
+            >
+          </div>
+
+          <div class="hero__btns">
+            <a href="#" class="hero__cta" download>
+              <span>Télécharger CV</span>
+              <i class="fa-solid fa-download"></i>
+            </a>
+            <a href="" class="social__medias"
+              ><i class="fa-brands fa-square-github"></i
+            ></a>
+            <a href="" class="social__medias"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="" class="social__medias"
+              ><i class="fa-brands fa-square-instagram"></i
+            ></a>
+          </div>
+          <img
+            class="pattern-fleche"
+            src="./assets/images/Zigzag arrow white.png"
+            alt="fleche decorative"
+          />
+        </div>
+      </section>
 
       <!-- Projects Section - Work -->
       <section id="projects"></section>
