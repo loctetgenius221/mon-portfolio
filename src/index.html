@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./styles/components/projects.css" />
     <link rel="stylesheet" href="./styles/components/services.css" />
     <link rel="stylesheet" href="./styles/components/skills.css" />
-
+    <link rel="stylesheet" href="./styles/components/testimonials.css" />
     <!-- Icons CDN -->
     <link
       rel="stylesheet"
@@ -280,20 +280,153 @@
 
           <div class="skills__grid">
             <ul class="skill-items">
-              <li> <img src="./assets/images/logo_vuejs_icon.svg" alt=""> Vue.js</li>
-              <li> <img src="./assets/images/angular_icon.svg" alt=""> Angular</li>
-              <li> <img src="./assets/images/laravel-2.svg" alt=""> Laravel</li>
-              <li> <img src="./assets/images/figma_logo_icon.svg" alt=""> Figma</li>
-              <li> <img src="./assets/images/git_icon.svg" alt=""> Git</li>
-              <li> <img src="./assets/images/logo_mysql_icon.svg" alt=""> MySQL</li>
-              <li> <img src="./assets/images/wordpress-icon-1.svg" alt=""> Wordpress</li>
+              <li>
+                <img src="./assets/images/logo_vuejs_icon.svg" alt="" /> Vue.js
+              </li>
+              <li>
+                <img src="./assets/images/angular_icon.svg" alt="" /> Angular
+              </li>
+              <li>
+                <img src="./assets/images/laravel-2.svg" alt="" /> Laravel
+              </li>
+              <li>
+                <img src="./assets/images/figma_logo_icon.svg" alt="" /> Figma
+              </li>
+              <li><img src="./assets/images/git_icon.svg" alt="" /> Git</li>
+              <li>
+                <img src="./assets/images/logo_mysql_icon.svg" alt="" /> MySQL
+              </li>
+              <li>
+                <img src="./assets/images/wordpress-icon-1.svg" alt="" />
+                Wordpress
+              </li>
             </ul>
           </div>
         </div>
       </section>
 
-      <!-- Testimonial Section -->
-      <section id="testimonial"></section>
+      <!-- Testimonials Section -->
+      <section class="testimonials">
+        <div class="testimonials__container">
+          <div class="testimonials-titles">
+            <img
+              class="fleches-curly"
+              src="./assets/images/Curly arrow black.png"
+              alt="fleches Curly"
+            />
+            <h2 class="section-title">Ils parlent de moi</h2>
+          </div>
+
+          <div class="testimonials__grid">
+            <!-- Témoignage 1 -->
+            <article class="testimonial-card">
+              <div class="testimonial-header">
+                <img
+                  src="./assets/images/amadou.jpg"
+                  alt="Client 1"
+                  class="client-avatar"
+                />
+                <div class="client-info">
+                  <h3 class="client-name">Amadou Diallo</h3>
+                  <p class="client-role">CEO @TechAfrica</p>
+                </div>
+                <svg
+                  class="quote-icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                >
+                  <path
+                    d="M10 8H8V4H4V8H6V15C6 16.6569 7.34315 18 9 18H14M14 8H16V4H20V8H18V15C18 16.6569 16.6569 18 15 18H10"
+                  />
+                </svg>
+              </div>
+              <blockquote class="testimonial-text">
+                "Moussa a transformé notre plateforme avec un professionnalisme
+                remarquable. Son expertise en développement full-stack est tout
+                simplement exceptionnelle."
+              </blockquote>
+              <div class="testimonial-footer">
+                <img
+                  src="./assets/images/logotech.jpg"
+                  alt="TechAfrica"
+                  class="company-logo"
+                />
+              </div>
+            </article>
+
+            <!-- Témoignage 2 -->
+            <article class="testimonial-card">
+              <div class="testimonial-header">
+                <img
+                  src="./assets/images/aissatou.jpg"
+                  alt="Client 2"
+                  class="client-avatar"
+                />
+                <div class="client-info">
+                  <h3 class="client-name">Aïssatou Ndiaye</h3>
+                  <p class="client-role">Directrice Marketing @EcomSenegal</p>
+                </div>
+                <svg
+                  class="quote-icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                >
+                  <path
+                    d="M10 8H8V4H4V8H6V15C6 16.6569 7.34315 18 9 18H14M14 8H16V4H20V8H18V15C18 16.6569 16.6569 18 15 18H10"
+                  />
+                </svg>
+              </div>
+              <blockquote class="testimonial-text">
+                "Une refonte totale de notre site e-commerce réalisée dans les
+                temps avec une approche UX/UI moderne. Un partenaire de
+                confiance !"
+              </blockquote>
+              <div class="testimonial-footer">
+                <div class="rating">★★★★★</div>
+              </div>
+            </article>
+
+            <!-- Témoignage 3 -->
+            <article class="testimonial-card">
+              <div class="testimonial-header">
+                <img
+                  src="./assets/images/oumar.jpg"
+                  alt="Client 3"
+                  class="client-avatar"
+                />
+                <div class="client-info">
+                  <h3 class="client-name">Oumar Sarr</h3>
+                  <p class="client-role">Founder @Startup237</p>
+                </div>
+                <svg
+                  class="quote-icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                >
+                  <path
+                    d="M10 8H8V4H4V8H6V15C6 16.6569 7.34315 18 9 18H14M14 8H16V4H20V8H18V15C18 16.6569 16.6569 18 15 18H10"
+                  />
+                </svg>
+              </div>
+              <blockquote class="testimonial-text">
+                "Un développeur full-stack complet qui a su comprendre nos
+                besoins complexes et livrer une solution sur mesure. Très
+                réactif et professionnel."
+              </blockquote>
+              <div class="testimonial-footer">
+                <img
+                  src="./assets/images/logotech.jpg"
+                  alt="Startup237"
+                  class="company-logo"
+                />
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
 
       <!-- Contact Section - Infos -->
       <section id="contact"></section>
