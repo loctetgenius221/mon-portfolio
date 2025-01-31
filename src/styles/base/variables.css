@@ -13,9 +13,9 @@
   --blue-12: #c2e6ff; /* High-Contrast text */
   --shadow-color: #004074;
 
-  /* Neutres */
-
   --background: var(--blue-1);
   --text-secondary: var(--blue-11);
   --text-primary: var(--blue-12);
+
+  /* Tech Tags */
 }

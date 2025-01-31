@@ -4,7 +4,7 @@
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: linear-gradient(to bottom right, var(--blue-1), var(--blue-2));
+  /* background: linear-gradient(to bottom right, var(--blue-1), var(--blue-2)); */
 }
 
 .hero__content {

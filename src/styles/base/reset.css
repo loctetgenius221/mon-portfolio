@@ -4,10 +4,15 @@
 *::after {
   box-sizing: border-box;
 }
+
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   /* font-family: "Inter", sans-serif; */
   font-family: "Space Grotesk", serif;
   line-height: 1.5;
-  background-color: var(--background);
+  /* background-color: var(--background); */
+  background: linear-gradient(to bottom right, var(--blue-1), var(--blue-2));
 }
