@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./styles/components/testimonials.css" />
     <link rel="stylesheet" href="./styles/components/blog.css" />
     <link rel="stylesheet" href="./styles/components/contact.css" />
+    <link rel="stylesheet" href="./styles/components/footer.css" />
     <!-- Icons CDN -->
     <link
       rel="stylesheet"
@@ -39,7 +40,7 @@
           <nav class="nav">
             <ul class="nav__list">
               <li><a href="#intro" class="nav__link">Intro</a></li>
-              <li><a href="#projets" class="nav__link">Projets</a></li>
+              <li><a href="#projects" class="nav__link">Projets</a></li>
               <li><a href="#skills" class="nav__link">Skills</a></li>
               <li><a href="#contact" class="nav__link">Contact</a></li>
             </ul>
@@ -57,7 +58,7 @@
       </header>
 
       <!-- Hero Section - Intro -->
-      <section class="hero">
+      <section class="hero" id="intro">
         <div class="hero__content">
           <img
             class="pattern-ratture"
@@ -117,7 +118,7 @@
       </section>
 
       <!-- Projects Section - Work -->
-      <section class="projects">
+      <section class="projects" id="projects">
         <div class="projects__container">
           <h2 class="section-title">Quelques projets réalisés</h2>
 
@@ -192,7 +193,7 @@
       </section>
 
       <!-- Services Section -->
-      <section class="services">
+      <section class="services" id="services">
         <div class="services__container">
           <div class="service-titles">
             <img
@@ -266,7 +267,7 @@
       </section>
 
       <!-- Section Skills -->
-      <section class="skills">
+      <section class="skills" id="skills">
         <div class="skills__container">
           <div class="skills-titles">
             <img
@@ -626,7 +627,81 @@ navigator.performance
       </section>
 
       <!-- Footer Section -->
-      <section class="footer"></section>
+      <footer class="footer">
+        <div class="footer__container">
+          <!-- Section Principale -->
+          <div class="footer__main">
+            <!-- Colonne Logo + Description -->
+            <div class="footer__brand">
+              <a href="#" class="footer__logo">
+                <span class="logo-text">Moussa</span>
+                <span class="logo-highlight">Dev</span>
+              </a>
+              <p class="footer__tagline">
+                Développeur Full Stack passionné par la création de solutions
+                web innovantes
+              </p>
+            </div>
+
+            <!-- Colonne Navigation -->
+            <nav class="footer__nav">
+              <h4 class="nav-title">Navigation</h4>
+              <ul class="nav-list">
+                <li><a href="#intro" class="nav-link">Accueil</a></li>
+                <li><a href="#projects" class="nav-link">Projets</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+              </ul>
+            </nav>
+
+            <!-- Colonne Contacts -->
+            <div class="footer__contact">
+              <h4 class="contact-title">Connectons-nous</h4>
+              <ul class="contact-list">
+                <li>
+                  <a href="mailto:sagnamouss546@gmail.com" class="contact-link">
+                    <i class="fas fa-envelope"></i>
+                    sagnamouss546@gmail.com
+                  </a>
+                </li>
+                <li>
+                  <a href="tel:+221785041315" class="contact-link">
+                    <i class="fas fa-phone"></i>
+                    (+221) 78 504 13 15
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Section Bas de Footer -->
+          <div class="footer__bottom">
+            <!-- Réseaux Sociaux -->
+            <div class="social-links">
+              <a href="#" class="social-link" aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="#" class="social-link" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#" class="social-link" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+
+            <!-- Copyright -->
+            <div class="copyright">
+              <p>© 2024 Moussa Sagna. Tous droits réservés</p>
+              <p>Développé avec ❤️ à Dakar</p>
+            </div>
+
+            <!-- Back to Top -->
+            <a href="#intro" class="back-to-top">
+              <i class="fas fa-arrow-up"></i>
+            </a>
+          </div>
+        </div>
+      </footer>
     </div>
 
     <!-- Scripts Javascript -->
