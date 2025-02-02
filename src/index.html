@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moussa Sagna | Full Stack Developer</title>
+    <link rel="stylesheet" href="./styles/base/reset.css" />
+    <link rel="stylesheet" href="./styles/base/variables.css" />
+    <link rel="stylesheet" href="./styles/components/buttons.css" />
+    <link rel="stylesheet" href="./styles/components/header.css" />
+    <link rel="stylesheet" href="./styles/components/hero.css" />
+    <link rel="stylesheet" href="./styles/components/projects.css" />
+    <link rel="stylesheet" href="./styles/components/services.css" />
+    <link rel="stylesheet" href="./styles/components/skills.css" />
+    <link rel="stylesheet" href="./styles/components/testimonials.css" />
+    <link rel="stylesheet" href="./styles/components/blog.css" />
+    <link rel="stylesheet" href="./styles/components/contact.css" />
+    <link rel="stylesheet" href="./styles/components/footer.css" />
+    <!-- Icons CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div id="wrapper">
+      <!-- Header - Navigation -->
+      <header class="header">
+        <div class="header__container">
+          <!-- Logo -->
+          <a href="#" class="header__logo">
+            <span class="header__logo-text">M</span>
+            <span class="header__logo-highlight">S</span>
+          </a>
+
+          <!-- Navigation Desktop -->
+          <nav class="nav">
+            <ul class="nav__list">
+              <li><a href="#intro" class="nav__link">Intro</a></li>
+              <li><a href="#projects" class="nav__link">Projets</a></li>
+              <li><a href="#skills" class="nav__link">Skills</a></li>
+              <li><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+          </nav>
+
+          <button class="btn header__download-cv">CV</button>
+
+          <!-- Bouton mobile -->
+          <button class="header__menu-toggle" aria-label="Menu mobile">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </button>
+        </div>
+      </header>
+
+      <!-- Hero Section - Intro -->
+      <section class="hero" id="intro">
+        <div class="hero__content">
+          <img
+            class="pattern-ratture"
+            src="./assets/images/Bold_squiggles_black.png"
+            alt="pattern rature"
+          />
+          <img
+            class="pattern-fleches"
+            src="./assets/images/Arrows_black.png"
+            alt="trois fleches"
+          />
+          <img
+            class="profil__img"
+            src="./assets/images/moussasagna.jpg"
+            alt="photo de moussa"
+          />
+          <h1 class="hero__greeting">
+            <span class="hero__hello"
+              ><i class="fa-solid fa-hand-peace"></i
+            ></span>
+            <span class="hero__name">Hello! Je m'appelle Moussa Sagna</span>
+          </h1>
+
+          <h2 class="hero__title">Développeur Web - Portfolio</h2>
+
+          <div class="hero__contact">
+            <span class="contact-item"
+              ><i class="fa-solid fa-envelope"></i>
+              sagnamoussa546@gmail.com</span
+            >
+            <span class="contact-item"
+              ><i class="fa-solid fa-phone"></i> (+221) 78 504 13 15</span
+            >
+          </div>
+
+          <div class="hero__btns">
+            <a href="#" class="hero__cta" download>
+              <span>Télécharger CV</span>
+              <i class="fa-solid fa-download"></i>
+            </a>
+            <a href="" class="social__medias"
+              ><i class="fa-brands fa-square-github"></i
+            ></a>
+            <a href="" class="social__medias"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="" class="social__medias"
+              ><i class="fa-brands fa-square-instagram"></i
+            ></a>
+          </div>
+          <img
+            class="pattern-fleche"
+            src="./assets/images/Zigzag arrow white.png"
+            alt="fleche decorative"
+          />
+        </div>
+      </section>
+
+      <!-- Projects Section - Work -->
+      <section class="projects" id="projects">
+        <div class="projects__container">
+          <h2 class="section-title">Quelques projets réalisés</h2>
+
+          <div class="projects__grid">
+            <!-- Projet 1 -->
+            <article class="project-card">
+              <div class="img-content">
+                <img src="./assets/images/image.png" alt="projet 1" />
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Fann e-consult</h3>
+                <p class="project-description">
+                  Description détaillée du projet avec ses fonctionnalités
+                  principales. Lorem ipsum dolor, sit amet consectetur
+                  adipisicing elit. Repellendus dolor perferendis laudantium
+                  dicta optio quo nobis cumque atque corrupti alias.
+                </p>
+                <div class="tech-stack">
+                  <span class="tech-tag">Vue.js</span>
+                  <span class="tech-tag">Laravel</span>
+                  <span class="tech-tag">MySQL</span>
+                </div>
+                <a href="#" class="project-cta">Voir le projet →</a>
+              </div>
+            </article>
+
+            <!-- Projet 2 -->
+            <article class="project-card project-2">
+              <div class="img-content">
+                <img src="./assets/images/image.png" alt="projet 1" />
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Kane & Freres E-market</h3>
+                <p class="project-description">
+                  Description détaillée du projet avec ses fonctionnalités
+                  principales. Lorem ipsum dolor, sit amet consectetur
+                  adipisicing elit. Repellendus dolor perferendis laudantium
+                  dicta optio quo nobis cumque atque corrupti alias.
+                </p>
+                <div class="tech-stack">
+                  <span class="tech-tag">Blade</span>
+                  <span class="tech-tag">Laravel</span>
+                  <span class="tech-tag">MySQL</span>
+                </div>
+                <a href="#" class="project-cta">Voir le projet →</a>
+              </div>
+            </article>
+
+            <!-- Projet 3 -->
+            <article class="project-card">
+              <div class="img-content">
+                <img src="./assets/images/image.png" alt="projet 1" />
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Event Hub</h3>
+                <p class="project-description">
+                  Description détaillée du projet avec ses fonctionnalités
+                  principales. Lorem ipsum dolor, sit amet consectetur
+                  adipisicing elit. Repellendus dolor perferendis laudantium
+                  dicta optio quo nobis cumque atque corrupti alias.
+                </p>
+                <div class="tech-stack">
+                  <span class="tech-tag">Angular</span>
+                  <span class="tech-tag">Laravel</span>
+                  <span class="tech-tag">MySQL</span>
+                </div>
+                <a href="#" class="project-cta">Voir le projet →</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section class="services" id="services">
+        <div class="services__container">
+          <div class="service-titles">
+            <img
+              class="fleches-curly"
+              src="./assets/images/Curly arrow black.png"
+              alt="fleches Curly"
+            />
+            <h2 class="section-title">Services</h2>
+          </div>
+          <p class="services__subtitle">
+            Des solutions sur mesure pour concrétiser tes idées
+          </p>
+
+          <div class="services__grid">
+            <!-- Service 1 -->
+            <article class="service-card">
+              <div class="service-icon ux-icon">
+                <i class="fas fa-brush"></i>
+              </div>
+
+              <h3 class="service-title">UX/UI Design</h3>
+              <ul class="service-features">
+                <li class="feature-item">
+                  Conception de maquettes et prototypes interactifs
+                </li>
+                <li class="feature-item">
+                  Optimisation de l'expérience utilisateur (UX)
+                </li>
+                <li class="feature-item">
+                  Design d'interfaces modernes et responsives (UI)
+                </li>
+              </ul>
+            </article>
+
+            <!-- Service 2 -->
+            <article class="service-card">
+              <div class="service-icon dev-icon">
+                <i class="fas fa-code"></i>
+              </div>
+
+              <h3 class="service-title">Développement Web/Mobile</h3>
+              <ul class="service-features">
+                <li class="feature-item">
+                  Sites web et applications sur mesure
+                </li>
+                <li class="feature-item">
+                  Intégration de fonctionnalités avancées
+                </li>
+                <li class="feature-item">
+                  Optimisation performances et sécurité
+                </li>
+              </ul>
+            </article>
+
+            <!-- Service 3 -->
+            <article class="service-card">
+              <div class="service-icon ecom-icon">
+                <i class="fas fa-cart-plus"></i>
+              </div>
+              <h3 class="service-title">Création de Site E-commerce</h3>
+              <ul class="service-features">
+                <li class="feature-item">
+                  Solutions e-commerce personnalisées
+                </li>
+                <li class="feature-item">Systèmes de paiement sécurisés</li>
+                <li class="feature-item">Optimisation SEO et conversion</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section Skills -->
+      <section class="skills" id="skills">
+        <div class="skills__container">
+          <div class="skills-titles">
+            <img
+              class="fleches-curly"
+              src="./assets/images/Curly arrow black.png"
+              alt="fleches Curly"
+            />
+            <h2 class="section-title">Mes Skills</h2>
+          </div>
+
+          <div class="skills__grid">
+            <ul class="skill-items">
+              <li>
+                <img src="./assets/images/logo_vuejs_icon.svg" alt="" /> Vue.js
+              </li>
+              <li>
+                <img src="./assets/images/angular_icon.svg" alt="" /> Angular
+              </li>
+              <li>
+                <img src="./assets/images/laravel-2.svg" alt="" /> Laravel
+              </li>
+              <li>
+                <img src="./assets/images/figma_logo_icon.svg" alt="" /> Figma
+              </li>
+              <li><img src="./assets/images/git_icon.svg" alt="" /> Git</li>
+              <li>
+                <img src="./assets/images/logo_mysql_icon.svg" alt="" /> MySQL
+              </li>
+              <li>
+                <img src="./assets/images/wordpress-icon-1.svg" alt="" />
+                Wordpress
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials Section -->
+      <section class="testimonials">
+        <div class="testimonials__container">
+          <div class="testimonials-titles">
+            <img
+              class="fleches-curly"
+              src="./assets/images/Curly arrow black.png"
+              alt="fleches Curly"
+            />
+            <h2 class="section-title">Ils parlent de moi</h2>
+          </div>
+
+          <div class="testimonials__grid">
+            <!-- Témoignage 1 -->
+            <article class="testimonial-card">
+              <div class="testimonial-header">
+                <img
+                  src="./assets/images/amadou.jpg"
+                  alt="Client 1"
+                  class="client-avatar"
+                />
+                <div class="client-info">
+                  <h3 class="client-name">Amadou Diallo</h3>
+                  <p class="client-role">CEO @TechAfrica</p>
+                </div>
+                <svg
+                  class="quote-icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                >
+                  <path
+                    d="M10 8H8V4H4V8H6V15C6 16.6569 7.34315 18 9 18H14M14 8H16V4H20V8H18V15C18 16.6569 16.6569 18 15 18H10"
+                  />
+                </svg>
+              </div>
+              <blockquote class="testimonial-text">
+                "Moussa a transformé notre plateforme avec un professionnalisme
+                remarquable. Son expertise en développement full-stack est tout
+                simplement exceptionnelle."
+              </blockquote>
+              <div class="testimonial-footer">
+                <img
+                  src="./assets/images/logotech.jpg"
+                  alt="TechAfrica"
+                  class="company-logo"
+                />
+              </div>
+            </article>
+
+            <!-- Témoignage 2 -->
+            <article class="testimonial-card">
+              <div class="testimonial-header">
+                <img
+                  src="./assets/images/aissatou.jpg"
+                  alt="Client 2"
+                  class="client-avatar"
+                />
+                <div class="client-info">
+                  <h3 class="client-name">Aïssatou Ndiaye</h3>
+                  <p class="client-role">Directrice Marketing @EcomSenegal</p>
+                </div>
+                <svg
+                  class="quote-icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                >
+                  <path
+                    d="M10 8H8V4H4V8H6V15C6 16.6569 7.34315 18 9 18H14M14 8H16V4H20V8H18V15C18 16.6569 16.6569 18 15 18H10"
+                  />
+                </svg>
+              </div>
+              <blockquote class="testimonial-text">
+                "Une refonte totale de notre site e-commerce réalisée dans les
+                temps avec une approche UX/UI moderne. Un partenaire de
+                confiance !"
+              </blockquote>
+              <div class="testimonial-footer">
+                <div class="rating">★★★★★</div>
+              </div>
+            </article>
+
+            <!-- Témoignage 3 -->
+            <article class="testimonial-card">
+              <div class="testimonial-header">
+                <img
+                  src="./assets/images/oumar.jpg"
+                  alt="Client 3"
+                  class="client-avatar"
+                />
+                <div class="client-info">
+                  <h3 class="client-name">Oumar Sarr</h3>
+                  <p class="client-role">Founder @Startup237</p>
+                </div>
+                <svg
+                  class="quote-icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                >
+                  <path
+                    d="M10 8H8V4H4V8H6V15C6 16.6569 7.34315 18 9 18H14M14 8H16V4H20V8H18V15C18 16.6569 16.6569 18 15 18H10"
+                  />
+                </svg>
+              </div>
+              <blockquote class="testimonial-text">
+                "Un développeur full-stack complet qui a su comprendre nos
+                besoins complexes et livrer une solution sur mesure. Très
+                réactif et professionnel."
+              </blockquote>
+              <div class="testimonial-footer">
+                <img
+                  src="./assets/images/logotech.jpg"
+                  alt="Startup237"
+                  class="company-logo"
+                />
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section Blog -->
+      <section class="blog">
+        <div class="blog__container">
+          <h2 class="section-title">Insights Tech</h2>
+          <p class="blog__subtitle">
+            Explorations & Réflexions sur le Développement Web
+          </p>
+
+          <div class="articles-grid">
+            <!-- Article 1 -->
+            <article class="article-card article-card--featured">
+              <div class="article__visual">
+                <div class="article__pattern"></div>
+                <div class="article__meta">
+                  <span class="article__tag">Frontend</span>
+                  <time datetime="2024-03-15">15 Mars 2024</time>
+                </div>
+              </div>
+              <div class="article__content">
+                <h3 class="article__title">
+                  L'Ère des Composants Web Modulaires
+                </h3>
+                <p class="article__excerpt">
+                  Comment les Web Components redéfinissent l'écosystème frontend
+                  moderne...
+                </p>
+                <a href="#" class="article__link">
+                  Lire l'article
+                  <svg class="arrow-icon" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                  </svg>
+                </a>
+              </div>
+            </article>
+
+            <article class="article-card article-card--featured">
+              <div class="article__visual">
+                <div class="article__pattern"></div>
+                <div class="article__meta">
+                  <span class="article__tag">Performance</span>
+                  <time datetime="2024-03-15">12 Mars 2024</time>
+                </div>
+              </div>
+              <div class="article__content">
+                <h3 class="article__title">Optimisation Core Web Vitals</h3>
+                <p class="article__excerpt">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Facilis?...
+                </p>
+                <a href="#" class="article__link">
+                  Lire l'article
+                  <svg class="arrow-icon" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                  </svg>
+                </a>
+              </div>
+            </article>
+
+            <!-- Article 2 -->
+            <!-- <article class="article-card">
+              <div class="article__content">
+                <div class="article__meta">
+                  <span class="article__tag">Performance</span>
+                  <time datetime="2024-03-12">12 Mars 2024</time>
+                </div>
+                <h3 class="article__title">Optimisation Core Web Vitals</h3>
+                <ul class="article__stats">
+                  <li>LCP ↓ 68%</li>
+                  <li>FID → 12ms</li>
+                  <li>CLS ≈ 0.1</li>
+                </ul>
+              </div>
+              <div class="article__visual">
+                <div class="performance-graph"></div>
+              </div>
+            </article> -->
+
+            <!-- Article 3 -->
+            <!-- <article class="article-card article-card--vertical">
+              <div class="article__visual">
+                <div class="code-snippet">
+                  <pre><code class="language-js">// Nouvelle API Browser
+navigator.performance
+  .getEntries()
+  .filter(entry => ...)</code></pre>
+                </div>
+              </div>
+              <div class="article__content">
+                <div class="article__meta">
+                  <span class="article__tag">API</span>
+                  <time datetime="2024-03-10">10 Mars 2024</time>
+                </div>
+                <h3 class="article__title">Exploitation des APIs Navigateur</h3>
+                <a href="#" class="article__link">
+                  Voir le cas pratique
+                  <svg class="arrow-icon" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                  </svg>
+                </a>
+              </div>
+            </article> -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section - Infos -->
+      <section class="contact" id="contact">
+        <div class="contact__container">
+          <h2 class="section-title">Collaborons ensemble</h2>
+          <p class="contact__subtitle">
+            Disponible pour de nouvelles opportunités et projets innovants
+          </p>
+
+          <div class="contact__grid">
+            <!-- Colonne Informations -->
+            <div class="contact__info">
+              <div class="contact-card">
+                <h3 class="contact-card__title">📬 Coordonnées</h3>
+                <ul class="contact-details">
+                  <li>
+                    <a
+                      href="mailto:sagnamouss546@gmail.com"
+                      class="contact-link"
+                    >
+                      <i class="fas fa-envelope"></i>
+                      sagnamouss546@gmail.com
+                    </a>
+                  </li>
+                  <li>
+                    <a href="tel:+221785041315" class="contact-link">
+                      <i class="fas fa-phone"></i>
+                      (+221) 78 504 13 15
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="contact-card">
+                <h3 class="contact-card__title">🌐 Réseaux sociaux</h3>
+                <div class="social-links">
+                  <a
+                    href="https://www.linkedin.com/in/moussa-sagna-d%C3%A9veloppeur-fullstack-simplon?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                    class="social-link"
+                    target="_blank"
+                  >
+                    <i class="fab fa-linkedin"></i>
+                    LinkedIn
+                  </a>
+                  <a
+                    href="https://www.instagram.com/code_with_moussa?igsh=Y3d0OTUyMXY3ZzA5"
+                    class="social-link"
+                    target="_blank"
+                  >
+                    <i class="fab fa-instagram"></i>
+                    Instagram
+                  </a>
+                  <a href="#" class="social-link" target="_blank">
+                    <i class="fab fa-github"></i>
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Colonne Téléchargement CV -->
+            <div class="contact__action">
+              <div class="cv-card">
+                <h3 class="cv-card__title">📄 Curriculum Vitae</h3>
+                <p class="cv-card__text">
+                  Téléchargez mon CV pour consulter mes compétences et
+                  expériences complètes
+                </p>
+                <a
+                  href="./cv-moussa-sagna.pdf"
+                  download
+                  class="cv-download-btn"
+                >
+                  <i class="fas fa-download"></i>
+                  Télécharger le CV
+                </a>
+              </div>
+
+              <div class="proposal-card">
+                <h3 class="proposal-title">💡 Un projet en tête ?</h3>
+                <p class="proposal-text">
+                  Discutons de votre idée et voyons comment je peux vous aider à
+                  la concrétiser
+                </p>
+                <a href="#contact" class="proposal-cta">
+                  Envoyer une demande
+                  <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer Section -->
+      <footer class="footer">
+        <div class="footer__container">
+          <!-- Section Principale -->
+          <div class="footer__main">
+            <!-- Colonne Logo + Description -->
+            <div class="footer__brand">
+              <a href="#" class="footer__logo">
+                <span class="logo-text">Moussa</span>
+                <span class="logo-highlight">Dev</span>
+              </a>
+              <p class="footer__tagline">
+                Développeur Full Stack passionné par la création de solutions
+                web innovantes
+              </p>
+            </div>
+
+            <!-- Colonne Navigation -->
+            <nav class="footer__nav">
+              <h4 class="nav-title">Navigation</h4>
+              <ul class="nav-list">
+                <li><a href="#intro" class="nav-link">Accueil</a></li>
+                <li><a href="#projects" class="nav-link">Projets</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+              </ul>
+            </nav>
+
+            <!-- Colonne Contacts -->
+            <div class="footer__contact">
+              <h4 class="contact-title">Connectons-nous</h4>
+              <ul class="contact-list">
+                <li>
+                  <a href="mailto:sagnamouss546@gmail.com" class="contact-link">
+                    <i class="fas fa-envelope"></i>
+                    sagnamouss546@gmail.com
+                  </a>
+                </li>
+                <li>
+                  <a href="tel:+221785041315" class="contact-link">
+                    <i class="fas fa-phone"></i>
+                    (+221) 78 504 13 15
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Section Bas de Footer -->
+          <div class="footer__bottom">
+            <!-- Réseaux Sociaux -->
+            <div class="social-links">
+              <a href="#" class="social-link" aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="#" class="social-link" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#" class="social-link" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+
+            <!-- Copyright -->
+            <div class="copyright">
+              <p>© 2024 Moussa Sagna. Tous droits réservés</p>
+              <p>Développé avec ❤️ à Dakar</p>
+            </div>
+
+            <!-- Back to Top -->
+            <a href="#intro" class="back-to-top">
+              <i class="fas fa-arrow-up"></i>
+            </a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Scripts Javascript -->
+    <script src="./scripts/main.js"></script>
+    <script src="./scripts/mobile-menu.js"></script>
+  </body>
+</html>

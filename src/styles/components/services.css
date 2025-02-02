@@ -1,0 +1,191 @@
+/* Styles pour la section Services */
+.services {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 6rem 2rem;
+  background: var(--background-alt);
+}
+
+.service-titles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+img.fleches-curly {
+  width: 110px;
+  height: 70px;
+  filter: brightness(0) saturate(100%) invert(75%) sepia(12%) saturate(1000%)
+    hue-rotate(190deg) brightness(110%) contrast(95%);
+  /* transform: rotateY(180deg); */
+  /* margin-top: -25px; */
+}
+.section-title {
+  margin-bottom: 0px;
+}
+
+.services__subtitle {
+  text-align: center;
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+  margin-bottom: 3rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.services__grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.service-card {
+  background: rgba(158, 154, 154, 0.051);
+  backdrop-filter: blur(28px);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  background: rgba(158, 154, 154, 0.109);
+}
+
+.service-title {
+  color: var(--blue-9);
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.service-title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background: var(--blue-9);
+  border-radius: 50%;
+}
+
+.service-features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.feature-item {
+  padding: 0.8rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+  color: var(--text-primary);
+  line-height: 1.5;
+}
+
+.feature-item::before {
+  content: "▹";
+  position: absolute;
+  left: 0;
+  color: var(--blue-9);
+}
+
+/* Ajouts/modifications CSS */
+.service-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover .service-icon {
+  transform: rotate(15deg) scale(1.1);
+}
+
+.service-head {
+  display: flex;
+  align-items: center;
+}
+
+/* Couleurs personnalisées pour chaque icône */
+.ux-icon {
+  background: var(--blue-3);
+  color: var(--blue-9);
+}
+
+.dev-icon {
+  background: var(--blue-3);
+  color: var(--blue-11);
+}
+
+.ecom-icon {
+  background: var(--blue-3);
+  color: var(--blue-11);
+}
+
+/* Animation au hover */
+.service-icon i {
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover .service-icon i {
+  transform: scale(1.2);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .service-icon {
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .service-icon {
+    width: 45px;
+    height: 45px;
+    font-size: 1.3rem;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .services {
+    padding: 4rem 1.5rem;
+  }
+
+  .services__subtitle {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .service-card {
+    padding: 1.5rem;
+  }
+
+  .service-title {
+    font-size: 1.3rem;
+  }
+
+  .feature-item {
+    font-size: 0.9rem;
+  }
+
+  img.fleches-curly {
+    width: 80px;
+    height: 50px;
+  }
+}

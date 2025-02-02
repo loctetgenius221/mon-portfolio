@@ -1,0 +1,178 @@
+.contact {
+  padding: 2rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.contact__subtitle {
+  text-align: center;
+  color: var(--text-secondary);
+  margin-bottom: 3rem;
+}
+
+.contact__grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contact-card {
+  background: var(--background);
+  padding: 2rem;
+  border-radius: 24px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.contact-card__title {
+  color: var(--blue-9);
+  margin-bottom: 1.5rem;
+  font-size: 1.25rem;
+}
+
+.contact-details {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  color: var(--text-primary);
+  text-decoration: none;
+  transition: background 0.3s ease;
+  border-radius: 12px;
+}
+
+.contact-link:hover {
+  background: var(--blue-1);
+}
+
+.contact-link i {
+  width: 24px;
+  text-align: center;
+  color: var(--blue-9);
+}
+
+.social-links {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  color: var(--text-primary);
+  text-decoration: none;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.social-link:hover {
+  transform: translateX(8px);
+  background: var(--blue-1);
+}
+
+/* Carte CV */
+.cv-card {
+  background: var(--blue-9);
+  color: white;
+  padding: 2rem;
+  border-radius: 24px;
+  margin-bottom: 1.5rem;
+}
+
+.cv-card__title {
+  margin-bottom: 1rem;
+}
+
+.cv-card__text {
+  opacity: 0.9;
+  margin-bottom: 1.5rem;
+}
+
+.cv-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 1rem 2rem;
+  background: white;
+  color: var(--blue-9);
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: transform 0.3s ease;
+}
+
+.cv-download-btn:hover {
+  transform: translateY(-2px);
+}
+
+/* Proposition */
+.proposal-card {
+  border: 2px solid var(--blue-3);
+  border-radius: 24px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.proposal-title {
+  color: var(--blue-9);
+  margin-bottom: 1rem;
+}
+
+.proposal-text {
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
+}
+
+.proposal-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--blue-9);
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.8rem 1.5rem;
+  border-radius: 50px;
+  border: 2px solid var(--blue-9);
+  transition: all 0.3s ease;
+}
+
+.proposal-cta:hover {
+  background: var(--blue-9);
+  color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact {
+    padding: 4rem 1.5rem;
+  }
+
+  .contact-card,
+  .cv-card,
+  .proposal-card {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .cv-download-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}

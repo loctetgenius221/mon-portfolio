@@ -1,0 +1,21 @@
+/* Import depuis Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+:root {
+  /* Base Radix Colors - Bleu */
+  --blue-1: #0d1520; /* Backgrounds */
+  --blue-2: #111927; /* Backgrounds */
+  --blue-3: #0d2847; /* Interactive components */
+  --blue-7: #205d9e; /* Borders and separators */
+  --blue-9: #0090ff; /* Solid background, Boutons */
+  --blue-11: #70b8ff; /* Secondary text, links */
+  --blue-12: #c2e6ff; /* High-Contrast text */
+  --shadow-color: #004074;
+
+  --background: var(--blue-1);
+  --text-secondary: var(--blue-11);
+  --text-primary: var(--blue-12);
+
+  /* Tech Tags */
+}

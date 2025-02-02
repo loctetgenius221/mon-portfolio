@@ -1,0 +1,15 @@
+.btn {
+    padding: 0.45rem 1.5rem;
+    border-radius: 0.375rem;
+    background: var(--blue-3);
+    color: white;
+    transition: transform 0.2s;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px var(--blue-7);
+    font-weight: 500;
+  }
+  
+  .btn:hover {
+    transform: translateY(-2px);
+  }
