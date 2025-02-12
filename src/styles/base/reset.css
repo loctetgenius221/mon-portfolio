@@ -16,3 +16,12 @@ body {
   /* background-color: var(--background); */
   background: linear-gradient(to bottom right, var(--blue-1), var(--blue-2));
 }
+
+.section-title {
+  font-size: 50px;
+  color: var(--text-primary);
+  opacity: 0.2;
+  align-self: end;
+  text-align: right;
+  margin-top: 0;
+}

@@ -31,7 +31,7 @@
       <header class="header">
         <div class="header__container">
           <!-- Logo -->
-          <a href="#" class="header__logo">
+          <a href="index.html" class="header__logo">
             <span class="header__logo-text">M</span>
             <span class="header__logo-highlight">S</span>
           </a>
@@ -46,7 +46,12 @@
             </ul>
           </nav>
 
-          <button class="btn header__download-cv">CV</button>
+          <a
+            href="./assets/fichiers/moussa_sagna_cv_developpeur_fullstack.pdf "
+            class="btn-header"
+            download
+            >CV <i class="fas fa-download"></i
+          ></a>
 
           <!-- Bouton mobile -->
           <button class="header__menu-toggle" aria-label="Menu mobile">
@@ -82,30 +87,45 @@
             <span class="hero__name">Hello! Je m'appelle Moussa Sagna</span>
           </h1>
 
-          <h2 class="hero__title">Développeur Web - Portfolio</h2>
+          <h2 class="hero__title">Développeur Web Fullstack</h2>
 
           <div class="hero__contact">
-            <span class="contact-item"
-              ><i class="fa-solid fa-envelope"></i>
-              sagnamoussa546@gmail.com</span
+            <a
+              href="mailto:sagnamoussa546@gmail.com"
+              target="_blank"
+              class="contact-item"
+              ><i class="fa-solid fa-envelope"></i> sagnamoussa546@gmail.com</a
             >
-            <span class="contact-item"
-              ><i class="fa-solid fa-phone"></i> (+221) 78 504 13 15</span
+            <a href="tel:+221785041315" class="contact-item"
+              ><i class="fa-solid fa-phone"></i> (+221) 78 504 13 15</a
             >
           </div>
 
           <div class="hero__btns">
-            <a href="#" class="hero__cta" download>
+            <a
+              href="./assets/fichiers/moussa_sagna_cv_developpeur_fullstack.pdf"
+              class="hero__cta proposal-cta"
+              download
+            >
               <span>Télécharger CV</span>
               <i class="fa-solid fa-download"></i>
             </a>
-            <a href="" class="social__medias"
+            <a
+              href="https://github.com/loctetgenius221"
+              target="_blank"
+              class="social__medias"
               ><i class="fa-brands fa-square-github"></i
             ></a>
-            <a href="" class="social__medias"
+            <a
+              href="https://www.linkedin.com/in/moussa-sagna-d%C3%A9veloppeur-fullstack-simplon"
+              target="_blank"
+              class="social__medias"
               ><i class="fa-brands fa-linkedin"></i
             ></a>
-            <a href="" class="social__medias"
+            <a
+              href="https://www.instagram.com/code_with_moussa"
+              target="_blank"
+              class="social__medias"
               ><i class="fa-brands fa-square-instagram"></i
             ></a>
           </div>
@@ -196,11 +216,11 @@
       <section class="services" id="services">
         <div class="services__container">
           <div class="service-titles">
-            <img
+            <!-- <img
               class="fleches-curly"
               src="./assets/images/Curly arrow black.png"
               alt="fleches Curly"
-            />
+            /> -->
             <h2 class="section-title">Services</h2>
           </div>
           <p class="services__subtitle">
@@ -270,11 +290,11 @@
       <section class="skills" id="skills">
         <div class="skills__container">
           <div class="skills-titles">
-            <img
+            <!-- <img
               class="fleches-curly"
               src="./assets/images/Curly arrow black.png"
               alt="fleches Curly"
-            />
+            /> -->
             <h2 class="section-title">Mes Skills</h2>
           </div>
 
@@ -309,11 +329,11 @@
       <section class="testimonials">
         <div class="testimonials__container">
           <div class="testimonials-titles">
-            <img
+            <!-- <img
               class="fleches-curly"
               src="./assets/images/Curly arrow black.png"
               alt="fleches Curly"
-            />
+            /> -->
             <h2 class="section-title">Ils parlent de moi</h2>
           </div>
 
@@ -569,7 +589,7 @@ navigator.performance
                 <h3 class="contact-card__title">🌐 Réseaux sociaux</h3>
                 <div class="social-links">
                   <a
-                    href="https://www.linkedin.com/in/moussa-sagna-d%C3%A9veloppeur-fullstack-simplon?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                    href="https://www.linkedin.com/in/moussa-sagna-d%C3%A9veloppeur-fullstack-simplon"
                     class="social-link"
                     target="_blank"
                   >
@@ -577,14 +597,18 @@ navigator.performance
                     LinkedIn
                   </a>
                   <a
-                    href="https://www.instagram.com/code_with_moussa?igsh=Y3d0OTUyMXY3ZzA5"
+                    href="https://www.instagram.com/code_with_moussa"
                     class="social-link"
                     target="_blank"
                   >
                     <i class="fab fa-instagram"></i>
                     Instagram
                   </a>
-                  <a href="#" class="social-link" target="_blank">
+                  <a
+                    href="https://github.com/loctetgenius221"
+                    class="social-link"
+                    target="_blank"
+                  >
                     <i class="fab fa-github"></i>
                     GitHub
                   </a>
@@ -601,7 +625,7 @@ navigator.performance
                   expériences complètes
                 </p>
                 <a
-                  href="./cv-moussa-sagna.pdf"
+                  href="./assets/fichiers/moussa_sagna_cv_developpeur_fullstack.pdf"
                   download
                   class="cv-download-btn"
                 >
@@ -633,14 +657,18 @@ navigator.performance
           <div class="footer__main">
             <!-- Colonne Logo + Description -->
             <div class="footer__brand">
-              <a href="#" class="footer__logo">
+              <a href="index.html" class="footer__logo">
                 <span class="logo-text">Moussa</span>
-                <span class="logo-highlight">Dev</span>
+                <span class="logo-highlight">Sagna</span> <br />
+              </a>
+              <a href="#" class="footer__pseudo">
+                <span class="logo-highlight">< octet~genius /></span>
               </a>
               <p class="footer__tagline">
                 Développeur Full Stack passionné par la création de solutions
                 web innovantes
               </p>
+              
             </div>
 
             <!-- Colonne Navigation -->
@@ -659,9 +687,12 @@ navigator.performance
               <h4 class="contact-title">Connectons-nous</h4>
               <ul class="contact-list">
                 <li>
-                  <a href="mailto:sagnamouss546@gmail.com" class="contact-link">
+                  <a
+                    href="mailto:sagnamoussa546@gmail.com"
+                    class="contact-link"
+                  >
                     <i class="fas fa-envelope"></i>
-                    sagnamouss546@gmail.com
+                    sagnamoussa546@gmail.com
                   </a>
                 </li>
                 <li>
@@ -678,13 +709,25 @@ navigator.performance
           <div class="footer__bottom">
             <!-- Réseaux Sociaux -->
             <div class="social-links">
-              <a href="#" class="social-link" aria-label="LinkedIn">
+              <a
+                href="https://www.linkedin.com/in/moussa-sagna-d%C3%A9veloppeur-fullstack-simplon"
+                class="social-link"
+                aria-label="LinkedIn"
+              >
                 <i class="fab fa-linkedin"></i>
               </a>
-              <a href="#" class="social-link" aria-label="Instagram">
+              <a
+                href="https://www.instagram.com/code_with_moussa"
+                class="social-link"
+                aria-label="Instagram"
+              >
                 <i class="fab fa-instagram"></i>
               </a>
-              <a href="#" class="social-link" aria-label="GitHub">
+              <a
+                href="https://github.com/loctetgenius221"
+                class="social-link"
+                aria-label="GitHub"
+              >
                 <i class="fab fa-github"></i>
               </a>
             </div>

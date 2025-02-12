@@ -5,6 +5,7 @@
   display: flex;
   align-items: center;
   /* background: linear-gradient(to bottom right, var(--blue-1), var(--blue-2)); */
+  
 }
 
 .hero__content {
@@ -78,6 +79,7 @@ img.pattern-fleches {
 
 .contact-item,
 .contact-item i {
+  text-decoration: none;
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
@@ -93,7 +95,7 @@ img.pattern-fleches {
   margin-top: 20px;
 }
 
-.hero__cta {
+/* .hero__cta {
   display: inline-flex;
   align-items: center;
   font-size: 0.8rem;
@@ -105,7 +107,7 @@ img.pattern-fleches {
   text-decoration: none;
   transition: transform 0.3s ease;
   margin-top: 0;
-}
+} */
 
 .hero__cta:hover,
 .social__medias:hover {
@@ -168,7 +170,7 @@ img.pattern-fleche {
   img.pattern-ratture {
     width: 80px;
     left: 0%;
-    top: 0%;
+    top: 18%;
   }
 
   img.pattern-fleches {

@@ -5,13 +5,8 @@
   background: var(--background-alt);
 }
 
-.section-title {
-  font-size: 50px;
-  color: var(--text-primary);
-  opacity: 0.2;
-  align-self: end;
-  text-align: right;
-  margin-top: 0;
+.projects .section-title {
+  margin-bottom: 50px;
 }
 
 .projects__grid {

@@ -2,7 +2,7 @@
 .services {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 6rem 2rem;
+  padding: 2rem 2rem;
   background: var(--background-alt);
 }
 
@@ -10,7 +10,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 25px;
+  margin-bottom: 0px;
 }
 
 img.fleches-curly {
@@ -29,10 +29,11 @@ img.fleches-curly {
   text-align: center;
   font-size: 1.25rem;
   color: var(--text-secondary);
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
   max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto 3rem auto;
 }
 
 .services__grid {
